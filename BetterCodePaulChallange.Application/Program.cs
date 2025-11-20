@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Infrastructure;
+using BetterCodePaulChallange.Domain;
 
 Console.WriteLine("Hello, World!");
 
-var ob = new Class1();
+var ob = new Class2();
 ob.Test();
+
