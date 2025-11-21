@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BetterCodePaulChallange.Domain.Entities
 {
-    public class Weather
+    public class WeatherData
     {
         public int Day { get; set; }
         public double MxT { get; set; }
