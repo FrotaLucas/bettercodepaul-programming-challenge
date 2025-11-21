@@ -1,8 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-using BetterCodePaulChallange.Domain;
+﻿
+using BetterCodePaulChallange.Application.Configuration;
 
-Console.WriteLine("Hello, World!");
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        var host = Startup.CreateHost();
 
-var ob = new Class2();
-ob.Test();
-
+    }
+}
