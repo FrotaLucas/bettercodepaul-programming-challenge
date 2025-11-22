@@ -1,5 +1,5 @@
 ﻿using System.Globalization;
-using BetterCodePaulChallange.Application.Configuration;
+using BetterCodePaulChallange.ConsoleApp.Configuration;
 using BetterCodePaulChallange.Domain.Entities;
 using CsvHelper;
 using CsvHelper.Configuration;

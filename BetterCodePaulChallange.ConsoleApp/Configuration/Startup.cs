@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace BetterCodePaulChallange.Application.Configuration
+namespace BetterCodePaulChallange.ConsoleApp.Configuration
 {
     public class Startup
     {

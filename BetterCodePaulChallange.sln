@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.Application", "BetterCodePaulChallange.Application\BetterCodePaulChallange.Application.csproj", "{AF8B252B-7432-4CB5-B1D9-3A99AD6AA643}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.ConsoleApp", "BetterCodePaulChallange.ConsoleApp\BetterCodePaulChallange.ConsoleApp.csproj", "{AF8B252B-7432-4CB5-B1D9-3A99AD6AA643}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.Infrastructure", "BetterCodePaulChallange.Infrastructure\BetterCodePaulChallange.Infrastructure.csproj", "{45C8950A-3ACF-4858-A9DD-1019329EF8C0}"
 EndProject

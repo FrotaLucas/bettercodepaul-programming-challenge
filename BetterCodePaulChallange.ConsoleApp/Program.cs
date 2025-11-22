@@ -1,5 +1,5 @@
 ﻿
-using BetterCodePaulChallange.Application.Configuration;
+using BetterCodePaulChallange.ConsoleApp.Configuration;
 
 internal class Program
 {
