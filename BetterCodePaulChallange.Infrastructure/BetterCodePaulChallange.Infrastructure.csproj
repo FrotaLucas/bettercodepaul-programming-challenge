@@ -17,13 +17,13 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<None Update="workLoad\weather.csv">
+		<None Update="Workload\weather.csv">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="workLoad\weather-test.csv">
+		<None Update="Workload\weather-test.csv">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="workLoad\countries.csv">
+		<None Update="Workload\countries.csv">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
