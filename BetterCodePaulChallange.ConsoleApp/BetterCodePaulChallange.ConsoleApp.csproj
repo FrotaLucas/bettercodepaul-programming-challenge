@@ -14,8 +14,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BetterCodePaulChallange.Domain\BetterCodePaulChallange.Domain.csproj" />
+    <ProjectReference Include="..\BetterCodePaulChallange.Application\BetterCodePaulChallange.Application.csproj" />
+    <ProjectReference Include="..\BetterCodePaulChallange.Config\BetterCodePaulChallange.Config.csproj" />
+    <ProjectReference Include="..\BetterCodePaulChallange.Infrastructure\BetterCodePaulChallange.Infrastructure.csproj" />
   </ItemGroup>
+
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 
 
 </Project>

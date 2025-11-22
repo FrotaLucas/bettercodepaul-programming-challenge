@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.Inf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.Domain", "BetterCodePaulChallange.Domain\BetterCodePaulChallange.Domain.csproj", "{1F302B59-14AA-4142-B4C7-53BF1FB7D8A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.Config", "BetterCodePaulChallange.Config\BetterCodePaulChallange.Config.csproj", "{B9BBD5B1-117A-4034-B983-D66E367625D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCodePaulChallange.Application", "BetterCodePaulChallange.Application\BetterCodePaulChallange.Application.csproj", "{154DA081-8B3F-4182-B14F-1535684FB1A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1F302B59-14AA-4142-B4C7-53BF1FB7D8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F302B59-14AA-4142-B4C7-53BF1FB7D8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F302B59-14AA-4142-B4C7-53BF1FB7D8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BBD5B1-117A-4034-B983-D66E367625D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BBD5B1-117A-4034-B983-D66E367625D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BBD5B1-117A-4034-B983-D66E367625D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BBD5B1-117A-4034-B983-D66E367625D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154DA081-8B3F-4182-B14F-1535684FB1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154DA081-8B3F-4182-B14F-1535684FB1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154DA081-8B3F-4182-B14F-1535684FB1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154DA081-8B3F-4182-B14F-1535684FB1A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,5 @@
 ﻿using System.Globalization;
-using BetterCodePaulChallange.ConsoleApp.Configuration;
+using BetterCodePaulChallange.Config.Configuration;
 using BetterCodePaulChallange.Domain.Entities;
 using CsvHelper;
 using CsvHelper.Configuration;
@@ -16,12 +16,12 @@ namespace BetterCodePaulChallange.Infrastructure.DataProvider
         {
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                Delimiter = ";",
+                Delimiter = ",",
                 HasHeaderRecord = true,
                 TrimOptions = TrimOptions.Trim,
             };
 
-            var reader = new StreamReader(_appConfig.CsvPath.WeatherPath);
+            var reader = new StreamReader(_appConfig.CsvPath.Weather);
             var csv = new CsvReader(reader, config);
 
             var result = csv.GetRecords<WeatherData>();

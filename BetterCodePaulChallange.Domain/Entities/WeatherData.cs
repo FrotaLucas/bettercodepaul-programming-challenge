@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BetterCodePaulChallange.Domain.Entities
+﻿namespace BetterCodePaulChallange.Domain.Entities
 {
     public class WeatherData
     {
