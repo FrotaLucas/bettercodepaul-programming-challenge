@@ -5,6 +5,6 @@ namespace BetterCodePaulChallange.ConsoleApp.Domain.Contracts.Repository
 {
     public interface IWeatherRepository
     {
-        public List<WeatherData> GetWheaterDatas();
+        public List<WeatherData> GetWheaterData();
     }
 }

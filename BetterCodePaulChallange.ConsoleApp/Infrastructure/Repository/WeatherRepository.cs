@@ -6,7 +6,7 @@ namespace BetterCodePaulChallange.ConsoleApp.Infrastructure.Repository
 {
     public class WeatherRepository (FilesReader fr) : IWeatherRepository
     {
-        public List<WeatherData> GetWheaterDatas()
+        public List<WeatherData> GetWheaterData()
         {
             List<WeatherData> data = new List<WeatherData>();
 

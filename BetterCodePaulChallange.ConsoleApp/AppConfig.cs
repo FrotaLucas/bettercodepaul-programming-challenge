@@ -1,4 +1,4 @@
-﻿namespace BetterCodePaulChallange.ConsoleApp.Application.Configuration
+﻿namespace BetterCodePaulChallange.ConsoleApp
 {
     public class AppConfig
     {

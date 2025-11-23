@@ -17,7 +17,7 @@
 
 
 	<ItemGroup>
-		<None Update="Application\appsettings.json">
+		<None Update="appsettings.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="Infrastructure\Workload\weather.csv">

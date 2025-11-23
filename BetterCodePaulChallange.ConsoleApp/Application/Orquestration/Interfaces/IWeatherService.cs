@@ -1,9 +1,9 @@
-﻿using BetterCodePaulChallange.ConsoleApp.Domain.Entities;
+﻿using BetterCodePaulChallange.ConsoleApp.Application.Model;
 
 namespace BetterCodePaulChallange.ConsoleApp.Application.Orquestration.Interfaces
 {
     public interface IWeatherService
     {
-        List<WeatherData> GetWeatherData();
+        WeatherDataResult GetWeatherData();
     }
 }
