@@ -24,12 +24,9 @@ namespace BetterCodePaulChallenge.ConsoleApp.Configuration
                  })
                  .ConfigureServices((ctx, services) =>
                  {
-                     //v1
                      services.Configure<AppConfig>(options =>
                      {
                          ctx.Configuration.Bind(options);
-
-
                      });
 
                      services.AddSingleton<FilesReader>();

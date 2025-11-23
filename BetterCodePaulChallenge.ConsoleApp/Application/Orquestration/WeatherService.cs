@@ -13,13 +13,12 @@ namespace BetterCodePaulChallenge.ConsoleApp.Application.Orquestration
             _weatherRepository = weatherRepository;
         }
 
-        //PODE SER QUE TENHA MAIS DE DIA COM MENOR TEMPERATURA. PENSAR EM LISTAAAAAAAA!
         public WeatherDataResult GetSmallestSpread()
         {
             var weatherData = _weatherRepository.GetWheaterData();
 
             if (weatherData == null || weatherData.Count == 0)
-                return null; // ou lance exceção
+                return null;
 
             WeatherDataResult? response = null;
 
