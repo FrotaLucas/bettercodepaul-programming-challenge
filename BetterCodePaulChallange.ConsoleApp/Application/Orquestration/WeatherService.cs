@@ -14,36 +14,33 @@ namespace BetterCodePaulChallange.ConsoleApp.Application.Orquestration
         }
 
         //PODE SER QUE TENHA MAIS DE DIA COM MENOR TEMPERATURA. PENSAR EM LISTAAAAAAAA!
-        public WeatherDataResult GetWeatherData()
+        public WeatherDataResult GetSmallestSpread()
         {
             var weatherData = _weatherRepository.GetWheaterData();
 
-            //ADD verificacao quando weatherData for nulo ????
-            //if weatherData == nulo 
+            if (weatherData == null || weatherData.Count == 0)
+                return null; // ou lance exceção
 
-            var result = new WeatherDataResult();
-            result.Amplitude = 0;
+            WeatherDataResult? response = null;
 
-            foreach(var data in weatherData)
+            foreach (var data in weatherData)
             {
                 var amplitude = data.MxT - data.MnT;
 
-                if (result.Amplitude < amplitude)
+                if (response == null || amplitude < response.Amplitude)
                 {
-                    result = new WeatherDataResult
+                    response = new WeatherDataResult
                     {
                         Day = data.Day,
-                        Amplitude = amplitude,
+                        MxT = data.MxT,
                         MnT = data.MnT,
-                        MxT = data.MnT,
-                        AvT = data.MnT,
+                        Amplitude = amplitude,
+                        AvT = data.AvT
                     };
                 }
             }
-            
 
-
-            return result; ;
+            return response!;
         }
     }
 }

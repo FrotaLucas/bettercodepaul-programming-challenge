@@ -32,7 +32,7 @@ public class Program
             switch (commandLine)
             {
                 case "1":
-                    var op1 = weatherService.GetWeatherData();
+                    var op1 = weatherService.GetSmallestSpread();
                     Console.WriteLine($"\nThe day with the smallest temperature spread is: {op1.Day}\n");
                     break;
 

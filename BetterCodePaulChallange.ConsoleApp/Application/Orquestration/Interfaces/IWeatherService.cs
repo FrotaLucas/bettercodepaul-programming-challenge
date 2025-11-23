@@ -4,6 +4,6 @@ namespace BetterCodePaulChallange.ConsoleApp.Application.Orquestration.Interface
 {
     public interface IWeatherService
     {
-        WeatherDataResult GetWeatherData();
+        WeatherDataResult GetSmallestSpread();
     }
 }
