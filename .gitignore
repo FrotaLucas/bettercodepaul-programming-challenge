@@ -1,6 +1,9 @@
 bin/
 obj/
 .vs/
+<<<<<<< HEAD
 Packages/
+=======
+>>>>>>> 99e876b4e30d0b4936de2c98b2b0b17464739aa3
 documentation.txt
 attention.txt
