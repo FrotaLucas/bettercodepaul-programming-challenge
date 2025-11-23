@@ -1,8 +1,8 @@
-﻿using BetterCodePaulChallange.ConsoleApp.Infrastructure.DataProvider;
-using BetterCodePaulChallange.ConsoleApp.Domain.Entities;
-using BetterCodePaulChallange.ConsoleApp.Domain.Contracts.Repository;
+﻿using BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider;
+using BetterCodePaulChallenge.ConsoleApp.Domain.Entities;
+using BetterCodePaulChallenge.ConsoleApp.Domain.Contracts.Repository;
 
-namespace BetterCodePaulChallange.ConsoleApp.Infrastructure.Repository
+namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.Repository
 {
     public class WeatherRepository (FilesReader fr) : IWeatherRepository
     {

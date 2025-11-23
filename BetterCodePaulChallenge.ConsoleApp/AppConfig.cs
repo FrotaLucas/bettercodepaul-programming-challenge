@@ -1,4 +1,4 @@
-﻿namespace BetterCodePaulChallange.ConsoleApp
+﻿namespace BetterCodePaulChallenge.ConsoleApp
 {
     public class AppConfig
     {

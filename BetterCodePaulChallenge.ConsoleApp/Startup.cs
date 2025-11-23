@@ -1,13 +1,13 @@
-﻿using BetterCodePaulChallange.ConsoleApp.Application.Orquestration;
-using BetterCodePaulChallange.ConsoleApp.Application.Orquestration.Interfaces;
-using BetterCodePaulChallange.ConsoleApp.Domain.Contracts.Repository;
-using BetterCodePaulChallange.ConsoleApp.Infrastructure.DataProvider;
-using BetterCodePaulChallange.ConsoleApp.Infrastructure.Repository;
+﻿using BetterCodePaulChallenge.ConsoleApp.Application.Orquestration;
+using BetterCodePaulChallenge.ConsoleApp.Application.Orquestration.Interfaces;
+using BetterCodePaulChallenge.ConsoleApp.Domain.Contracts.Repository;
+using BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider;
+using BetterCodePaulChallenge.ConsoleApp.Infrastructure.Repository;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace BetterCodePaulChallange.ConsoleApp.Configuration
+namespace BetterCodePaulChallenge.ConsoleApp.Configuration
 {
     public class Startup
     {

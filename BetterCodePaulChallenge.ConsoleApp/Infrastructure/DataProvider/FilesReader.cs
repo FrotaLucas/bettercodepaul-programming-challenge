@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
-using BetterCodePaulChallange.ConsoleApp.Domain.Entities;
+using BetterCodePaulChallenge.ConsoleApp.Domain.Entities;
 using CsvHelper;
 using CsvHelper.Configuration;
 using Microsoft.Extensions.Options;
 
-namespace BetterCodePaulChallange.ConsoleApp.Infrastructure.DataProvider
+namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
 {
     public class FilesReader(IOptions<AppConfig> appConfig)
     {

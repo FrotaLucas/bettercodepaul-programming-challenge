@@ -1,4 +1,4 @@
-﻿namespace BetterCodePaulChallange.ConsoleApp.Application.Model
+﻿namespace BetterCodePaulChallenge.ConsoleApp.Application.Model
 {
     public class WeatherDataResult
     {

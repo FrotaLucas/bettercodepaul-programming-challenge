@@ -1,5 +1,5 @@
-﻿using BetterCodePaulChallange.ConsoleApp.Application.Orquestration.Interfaces;
-using BetterCodePaulChallange.ConsoleApp.Configuration;
+﻿using BetterCodePaulChallenge.ConsoleApp.Application.Orquestration.Interfaces;
+using BetterCodePaulChallenge.ConsoleApp.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 public class Program

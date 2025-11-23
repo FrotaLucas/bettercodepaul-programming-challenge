@@ -1,8 +1,8 @@
-﻿using BetterCodePaulChallange.ConsoleApp.Application.Model;
-using BetterCodePaulChallange.ConsoleApp.Application.Orquestration.Interfaces;
-using BetterCodePaulChallange.ConsoleApp.Domain.Contracts.Repository;
+﻿using BetterCodePaulChallenge.ConsoleApp.Application.Model;
+using BetterCodePaulChallenge.ConsoleApp.Application.Orquestration.Interfaces;
+using BetterCodePaulChallenge.ConsoleApp.Domain.Contracts.Repository;
 
-namespace BetterCodePaulChallange.ConsoleApp.Application.Orquestration
+namespace BetterCodePaulChallenge.ConsoleApp.Application.Orquestration
 {
     public class WeatherService : IWeatherService
     {

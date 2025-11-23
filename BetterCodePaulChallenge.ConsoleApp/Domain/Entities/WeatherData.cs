@@ -1,4 +1,4 @@
-﻿namespace BetterCodePaulChallange.ConsoleApp.Domain.Entities
+﻿namespace BetterCodePaulChallenge.ConsoleApp.Domain.Entities
 {
     public class WeatherData
     {
