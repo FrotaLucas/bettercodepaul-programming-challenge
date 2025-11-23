@@ -22,11 +22,7 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
             }
         }
 
-<<<<<<< HEAD
-        public virtual List<WeatherData> ReadWeatherCsv()
-=======
         public List<WeatherData> ReadWeatherCsv()
->>>>>>> 99e876b4e30d0b4936de2c98b2b0b17464739aa3
         {
             CheckIfFileExist();
 
