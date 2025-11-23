@@ -17,8 +17,6 @@ namespace BetterCodePaulChallenge.ConsoleApp.Configuration
                  .ConfigureAppConfiguration((ctx, cfg) =>
                  {
                      cfg.SetBasePath(AppContext.BaseDirectory);
-                     //cfg.AddJsonFile(Path.Combine("Application", "appsettings.json"), optional: true, reloadOnChange: true);
-                     //cfg.AddJsonFile(Path.Combine("Application", $"appsettings.{ctx.HostingEnvironment.EnvironmentName}.json"), optional: true, reloadOnChange: true);
                      cfg.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
                      cfg.AddJsonFile($"appsettings.{ctx.HostingEnvironment.EnvironmentName}.json", optional: true);
 

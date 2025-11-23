@@ -7,8 +7,7 @@
         public double MnT { get; set; }
         public double AvT { get; set; }
         public double AvDP { get; set; }
-        public double OneHrP { get; set; }
-        public double TPcpn { get; set; }
+        public double OneHrPTPcpn { get; set; }
         public int PDir { get; set; }
         public double AvSp { get; set; }
         public int Dir { get; set; }
