@@ -15,20 +15,19 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
 
         private void CheckIfFileExist()
         {
-            if (!File.Exists(_appConfig.CsvPath.Weather))
+            if (!File.Exists(_appConfig.CsvPath.Countries))
             {
-                Log.Warn($"[WARN] File not found. Path: {_appConfig.CsvPath.Weather}");
-                throw new FileNotFoundException("Weather CSV not found.", _appConfig.CsvPath.Weather);
+                Log.Warn($"[WARN] File not found. Path: {_appConfig.CsvPath.Countries}");
+                throw new FileNotFoundException("Countrie CSV not found.", _appConfig.CsvPath.Countries);
             }
         }
 
-        public List<WeatherData> ReadWeatherCsv()
+        public List<CountryData> ReadWeatherCsv()
         {
             CheckIfFileExist();
-
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                Delimiter = ",",
+                Delimiter = ";",
                 HasHeaderRecord = true,
                 TrimOptions = TrimOptions.Trim,
                 BadDataFound = (ex) =>
@@ -37,11 +36,11 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
                 }
             };
 
-            var reader = new StreamReader(_appConfig.CsvPath.Weather);
+            var reader = new StreamReader(_appConfig.CsvPath.Countries);
             var csv = new CsvReader(reader, config);
-            csv.Context.RegisterClassMap<WeatherDataMap>();
+            csv.Context.RegisterClassMap<CountryDataMap>();
 
-            var result = csv.GetRecords<WeatherData>().ToList();
+            var result = csv.GetRecords<CountryData>().ToList();
 
             return result;
         }

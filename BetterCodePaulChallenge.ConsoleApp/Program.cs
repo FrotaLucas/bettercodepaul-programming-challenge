@@ -7,7 +7,7 @@ public class Program
     public static void Main(string[] args)
     {
         var host = Startup.CreateHost();
-        var weatherService = host.Services.GetRequiredService<IWeatherService>();
+        var weatherService = host.Services.GetRequiredService<ICountryService>();
 
         string greeting = DateTime.Now.Hour < 12
             ? "Good morning"
@@ -15,15 +15,15 @@ public class Program
                 ? "Good afternoon"
                 : "Good evening";
 
-        Console.WriteLine($"\n=== {greeting}, welcome to the Weather App ===\n");
+        Console.WriteLine($"\n=== {greeting}, welcome to the Console App ===\n");
 
         bool showMenu = true;
 
         while (showMenu)
         {
             Console.WriteLine("Choose an option:\n");
-            Console.WriteLine(" 1 - Day with the smallest temperature spread");
-            Console.WriteLine(" 2 - Lowest historical temperature");
+            Console.WriteLine(" 1 - Country with the highest population density");
+            Console.WriteLine(" 2 - Smallest population ");
             Console.WriteLine(" 0 - Exit");
             Console.Write("\nOption: ");
 
@@ -32,8 +32,8 @@ public class Program
             switch (commandLine)
             {
                 case "1":
-                    var op1 = weatherService.GetSmallestSpread();
-                    Console.WriteLine($"\nThe day with the smallest temperature spread is: {op1.Day}\n");
+                    var op1 = weatherService.GethighestDensity();
+                    Console.WriteLine($"\nThe country with the highest population is: {op1.Name}\n");
                     break;
 
                 case "2":

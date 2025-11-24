@@ -2,8 +2,8 @@
 
 namespace BetterCodePaulChallenge.ConsoleApp.Application.Orquestration.Interfaces
 {
-    public interface IWeatherService
+    public interface ICountryService
     {
-        WeatherDataResult GetSmallestSpread();
+        CountryDataResult GethighestDensity();
     }
 }

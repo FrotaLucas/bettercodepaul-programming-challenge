@@ -4,11 +4,11 @@ using BetterCodePaulChallenge.ConsoleApp.Domain.Contracts.Repository;
 
 namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.Repository
 {
-    public class WeatherRepository (FilesReader fr) : IWeatherRepository
+    public class CountryRepository (FilesReader fr) : ICountryRepository
     {
-        public List<WeatherData> GetWheaterData()
+        public List<CountryData> GetWheaterData()
         {
-            List<WeatherData> data = new List<WeatherData>();
+            List<CountryData> data = new List<CountryData>();
 
             data = fr.ReadWeatherCsv();
 

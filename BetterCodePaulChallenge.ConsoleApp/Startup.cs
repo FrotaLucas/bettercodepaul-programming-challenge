@@ -30,8 +30,8 @@ namespace BetterCodePaulChallenge.ConsoleApp.Configuration
                      });
 
                      services.AddSingleton<FilesReader>();
-                     services.AddSingleton<IWeatherRepository, WeatherRepository>();
-                     services.AddSingleton<IWeatherService, WeatherService>();
+                     services.AddSingleton<ICountryRepository, CountryRepository>();
+                     services.AddSingleton<ICountryService, CountryService>();
 
                  }).Build();
 
