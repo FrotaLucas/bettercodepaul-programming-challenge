@@ -1,0 +1,272 @@
+﻿[
+    {
+        "Name": "Austria",
+        "Capital": "Vienna",
+        "Accession": "1995",
+        "Population": 8926000,
+        "AreaKm2": 83855,
+        "GdpUsdM": 447718,
+        "HDI": 0.922,
+        "MEPs": 19
+    },
+    {
+        "Name": "Belgium",
+        "Capital": "Brussels",
+        "Accession": "Founder",
+        "Population": 11566041,
+        "AreaKm2": 30528,
+        "GdpUsdM": 517609,
+        "HDI": 0.931,
+        "MEPs": 21
+    },
+    {
+        "Name": "Bulgaria",
+        "Capital": "Sofia",
+        "Accession": "2007",
+        "Population": 6916548,
+        "AreaKm2": 110994,
+        "GdpUsdM": 66250,
+        "HDI": 0.816,
+        "MEPs": 17
+    },
+    {
+        "Name": "Croatia",
+        "Capital": "Zagreb",
+        "Accession": "2013",
+        "Population": 4036355,
+        "AreaKm2": 56594,
+        "GdpUsdM": 60702,
+        "HDI": 0.851,
+        "MEPs": 12
+    },
+    {
+        "Name": "Cyprus",
+        "Capital": "Nicosia",
+        "Accession": "2004",
+        "Population": 896000,
+        "AreaKm2": 9251,
+        "GdpUsdM": 24280,
+        "HDI": 0.887,
+        "MEPs": 6
+    },
+    {
+        "Name": "Czech Republic",
+        "Capital": "Prague",
+        "Accession": "2004",
+        "Population": 10574153,
+        "AreaKm2": 78866,
+        "GdpUsdM": 246953,
+        "HDI": 0.900,
+        "MEPs": 21
+    },
+    {
+        "Name": "Denmark",
+        "Capital": "Copenhagen",
+        "Accession": "1973",
+        "Population": 5833883,
+        "AreaKm2": 43075,
+        "GdpUsdM": 347176,
+        "HDI": 0.940,
+        "MEPs": 14
+    },
+    {
+        "Name": "Estonia",
+        "Capital": "Tallinn",
+        "Accession": "2004",
+        "Population": 1330068,
+        "AreaKm2": 45227,
+        "GdpUsdM": 31038,
+        "HDI": 0.892,
+        "MEPs": 7
+    },
+    {
+        "Name": "Finland",
+        "Capital": "Helsinki",
+        "Accession": "1995",
+        "Population": 5527493,
+        "AreaKm2": 338424,
+        "GdpUsdM": 269654,
+        "HDI": 0.938,
+        "MEPs": 14
+    },
+    {
+        "Name": "France",
+        "Capital": "Paris",
+        "Accession": "Founder",
+        "Population": 67439614,
+        "AreaKm2": 632833,
+        "GdpUsdM": 2707074,
+        "HDI": 0.901,
+        "MEPs": 79
+    },
+    {
+        "Name": "Germany",
+        "Capital": "Berlin",
+        "Accession": "Founder",
+        "Population": 83120520,
+        "AreaKm2": 357386,
+        "GdpUsdM": 3863344,
+        "HDI": 0.947,
+        "MEPs": 96
+    },
+    {
+        "Name": "Greece",
+        "Capital": "Athens",
+        "Accession": "1981",
+        "Population": 10682547,
+        "AreaKm2": 131990,
+        "GdpUsdM": 214012,
+        "HDI": 0.888,
+        "MEPs": 21
+    },
+    {
+        "Name": "Hungary",
+        "Capital": "Budapest",
+        "Accession": "2004",
+        "Population": 9730772,
+        "AreaKm2": 93030,
+        "GdpUsdM": 170407,
+        "HDI": 0.854,
+        "MEPs": 21
+    },
+    {
+        "Name": "Ireland",
+        "Capital": "Dublin",
+        "Accession": "1973",
+        "Population": 5006324,
+        "AreaKm2": 70273,
+        "GdpUsdM": 384940,
+        "HDI": 0.955,
+        "MEPs": 13
+    },
+    {
+        "Name": "Italy",
+        "Capital": "Rome",
+        "Accession": "Founder",
+        "Population": 59862348,
+        "AreaKm2": 301338,
+        "GdpUsdM": 1988636,
+        "HDI": 0.892,
+        "MEPs": 76
+    },
+    {
+        "Name": "Latvia",
+        "Capital": "Riga",
+        "Accession": "2004",
+        "Population": 1893223,
+        "AreaKm2": 64589,
+        "GdpUsdM": 35045,
+        "HDI": 0.866,
+        "MEPs": 8
+    },
+    {
+        "Name": "Lithuania",
+        "Capital": "Vilnius",
+        "Accession": "2004",
+        "Population": 2795680,
+        "AreaKm2": 65200,
+        "GdpUsdM": 53641,
+        "HDI": 0.882,
+        "MEPs": 11
+    },
+    {
+        "Name": "Luxembourg",
+        "Capital": "Luxembourg",
+        "Accession": "Founder",
+        "Population": 633347,
+        "AreaKm2": 2586,
+        "GdpUsdM": 69453,
+        "HDI": 0.916,
+        "MEPs": 6
+    },
+    {
+        "Name": "Malta",
+        "Capital": "Valletta",
+        "Accession": "2004",
+        "Population": 516100,
+        "AreaKm2": 316,
+        "GdpUsdM": 14859,
+        "HDI": 0.895,
+        "MEPs": 6
+    },
+    {
+        "Name": "Netherlands",
+        "Capital": "Amsterdam",
+        "Accession": "Founder",
+        "Population": 17614840,
+        "AreaKm2": 41543,
+        "GdpUsdM": 902355,
+        "HDI": 0.944,
+        "MEPs": 29
+    },
+    {
+        "Name": "Poland",
+        "Capital": "Warsaw",
+        "Accession": "2004",
+        "Population": 37840001,
+        "AreaKm2": 312685,
+        "GdpUsdM": 565854,
+        "HDI": 0.880,
+        "MEPs": 52
+    },
+    {
+        "Name": "Portugal",
+        "Capital": "Lisbon",
+        "Accession": "1986",
+        "Population": 10298252,
+        "AreaKm2": 92212,
+        "GdpUsdM": 236408,
+        "HDI": 0.864,
+        "MEPs": 21
+    },
+    {
+        "Name": "Romania",
+        "Capital": "Bucharest",
+        "Accession": "2007",
+        "Population": 19186201,
+        "AreaKm2": 238391,
+        "GdpUsdM": 243698,
+        "HDI": 0.828,
+        "MEPs": 33
+    },
+    {
+        "Name": "Slovakia",
+        "Capital": "Bratislava",
+        "Accession": "2004",
+        "Population": 5459781,
+        "AreaKm2": 49035,
+        "GdpUsdM": 106552,
+        "HDI": 0.860,
+        "MEPs": 14
+    },
+    {
+        "Name": "Slovenia",
+        "Capital": "Ljubljana",
+        "Accession": "2004",
+        "Population": 2108977,
+        "AreaKm2": 20273,
+        "GdpUsdM": 54154,
+        "HDI": 0.917,
+        "MEPs": 8
+    },
+    {
+        "Name": "Spain",
+        "Capital": "Madrid",
+        "Accession": "1986",
+        "Population": 47394223,
+        "AreaKm2": 504030,
+        "GdpUsdM": 1397870,
+        "HDI": 0.904,
+        "MEPs": 59
+    },
+    {
+        "Name": "Sweden",
+        "Capital": "Stockholm",
+        "Accession": "1995",
+        "Population": 10370000,
+        "AreaKm2": 449964,
+        "GdpUsdM": 528929,
+        "HDI": 0.945,
+        "MEPs": 21
+    }
+]

@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Text.Json;
 using BetterCodePaulChallenge.ConsoleApp.Domain.Entities;
 using CsvHelper;
 using CsvHelper.Configuration;
@@ -44,5 +45,21 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
 
             return result;
         }
+
+
+        public List<CountryData> ReadCountriesJson()
+        {
+            CheckIfFileExist();
+
+            var json = File.ReadAllText(_appConfig.DataFilesJson.Countries);
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            return JsonSerializer.Deserialize<List<CountryData>>(json, options)
+                   ?? new List<CountryData>();
+        }
+
     }
 }
