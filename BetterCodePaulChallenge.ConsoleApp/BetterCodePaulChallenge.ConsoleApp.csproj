@@ -30,6 +30,10 @@
 		<None Update="Infrastructure\Workload\countries.csv">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+		<None Update="Infrastructure\Workload\countries.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		
 	</ItemGroup>
 
 

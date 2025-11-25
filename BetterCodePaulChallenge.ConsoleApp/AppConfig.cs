@@ -4,7 +4,7 @@
     {
         public CsvPathConfig CsvPath { get; set; } = new CsvPathConfig();
 
-        public JsonPathConfig DataFilesJson { get; set; }
+        public JsonPathConfig JsonPath { get; set; } = new JsonPathConfig();
 
         public sealed class CsvPathConfig
         {

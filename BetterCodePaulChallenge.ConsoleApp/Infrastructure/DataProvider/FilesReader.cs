@@ -51,7 +51,7 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
         {
             CheckIfFileExist();
 
-            var json = File.ReadAllText(_appConfig.DataFilesJson.Countries);
+            var json = File.ReadAllText(_appConfig.JsonPath.Countries);
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
