@@ -6,16 +6,16 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.Repository
 {
     public class CountryRepository (FilesReader fr) : ICountryRepository
     {
-        public List<CountryData> GetWheaterData()
+        public List<CountryData> GetCountryData()
         {
             List<CountryData> data = new List<CountryData>();
 
-            data = fr.ReadWeatherCsv();
+            data = fr.ReadCountryCsv();
 
             if (data == null || data.Count == 0)
                 return null;
 
-            data = fr.ReadWeatherCsv();
+            data = fr.ReadCountryCsv();
 
             return data;
         }

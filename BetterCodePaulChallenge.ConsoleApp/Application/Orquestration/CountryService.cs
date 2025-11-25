@@ -16,7 +16,7 @@ namespace BetterCodePaulChallenge.ConsoleApp.Application.Orquestration
 
         public CountryDataResult GethighestDensity()
         {
-            var countryData = _countryRepository.GetWheaterData();
+            var countryData = _countryRepository.GetCountryData();
 
             if (countryData == null || countryData.Count == 0)
                 return null;

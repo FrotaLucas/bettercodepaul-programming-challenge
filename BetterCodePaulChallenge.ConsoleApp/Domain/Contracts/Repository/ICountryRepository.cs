@@ -5,6 +5,6 @@ namespace BetterCodePaulChallenge.ConsoleApp.Domain.Contracts.Repository
 {
     public interface ICountryRepository
     {
-        public List<CountryData> GetWheaterData();
+        public List<CountryData> GetCountryData();
     }
 }

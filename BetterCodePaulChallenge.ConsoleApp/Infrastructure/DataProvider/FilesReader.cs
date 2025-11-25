@@ -23,7 +23,7 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
             }
         }
 
-        public List<CountryData> ReadWeatherCsv()
+        public List<CountryData> ReadCountryCsv()
         {
             CheckIfFileExist();
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -47,7 +47,7 @@ namespace BetterCodePaulChallenge.ConsoleApp.Infrastructure.DataProvider
         }
 
 
-        public List<CountryData> ReadCountriesJson()
+        public List<CountryData> ReadCountryJson()
         {
             CheckIfFileExist();
 

@@ -20,7 +20,7 @@ namespace BetterCodePaulChallange.UnitTest
                 new CountryData { Name = "Croatia", Population = 4000000, AreaKm2 = 56000 }  
             };
 
-            mockRepo.Setup(r => r.GetWheaterData()).Returns(countries);
+            mockRepo.Setup(r => r.GetCountryData()).Returns(countries);
 
             var service = new CountryService(mockRepo.Object);
 
@@ -38,7 +38,7 @@ namespace BetterCodePaulChallange.UnitTest
         {
             var mockRepo = new Mock<ICountryRepository>();
 
-            mockRepo.Setup(r => r.GetWheaterData()).Returns(new List<CountryData>());
+            mockRepo.Setup(r => r.GetCountryData()).Returns(new List<CountryData>());
 
             var service = new CountryService(mockRepo.Object);
 
