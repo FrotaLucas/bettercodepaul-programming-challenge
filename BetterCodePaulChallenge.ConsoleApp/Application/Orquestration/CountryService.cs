@@ -6,17 +6,17 @@ namespace BetterCodePaulChallenge.ConsoleApp.Application.Orquestration
 {
     public class CountryService : ICountryService
     {
-        private readonly ICountryRepository _weatherRepository;
+        private readonly ICountryRepository _countryRepository;
 
-        public CountryService(ICountryRepository weatherRepository)
+        public CountryService(ICountryRepository countryRepository)
         {
-            _weatherRepository = weatherRepository;
+            _countryRepository = countryRepository;
         }
 
 
         public CountryDataResult GethighestDensity()
         {
-            var countryData = _weatherRepository.GetWheaterData();
+            var countryData = _countryRepository.GetWheaterData();
 
             if (countryData == null || countryData.Count == 0)
                 return null;

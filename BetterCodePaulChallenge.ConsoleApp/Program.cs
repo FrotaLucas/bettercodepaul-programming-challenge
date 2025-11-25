@@ -7,7 +7,7 @@ public class Program
     public static void Main(string[] args)
     {
         var host = Startup.CreateHost();
-        var weatherService = host.Services.GetRequiredService<ICountryService>();
+        var countryService = host.Services.GetRequiredService<ICountryService>();
 
         string greeting = DateTime.Now.Hour < 12
             ? "Good morning"
@@ -32,7 +32,7 @@ public class Program
             switch (commandLine)
             {
                 case "1":
-                    var op1 = weatherService.GethighestDensity();
+                    var op1 = countryService.GethighestDensity();
                     Console.WriteLine($"\nThe country with the highest population is: {op1.Name}\n");
                     break;
 
